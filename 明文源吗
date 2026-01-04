@@ -1,6 +1,6 @@
     import { connect } from 'cloudflare:sockets';
 
-    let at = '351c9981-04b6-4103-aa4b-864aa9c91469';
+    let at = 'd205f85b-ef71-4566-9597-fe8db16aa613';
     let fallbackAddress = '';
     let socks5Config = '';
     let customPreferredIPs = [];
@@ -44,7 +44,9 @@
         'Oracle': ['甲骨文', 'Oracle'],
         'DigitalOcean': ['数码海', 'DigitalOcean'],
         'Vultr': ['Vultr', 'Vultr'],
-        'Multacom': ['Multacom', 'Multacom']
+        'Multacom': ['Multacom', 'Multacom'],
+        'Asia': ['Asia', 'Asia'],
+        'America': ['America', 'America']
     };
 
     let backupIPs = [
@@ -60,7 +62,9 @@
         { domain: 'ProxyIP.Oracle.cmliussss.net', region: 'Oracle', regionCode: 'Oracle', port: 443 },
         { domain: 'ProxyIP.DigitalOcean.CMLiussss.net', region: 'DigitalOcean', regionCode: 'DigitalOcean', port: 443 },
         { domain: 'ProxyIP.Vultr.CMLiussss.net', region: 'Vultr', regionCode: 'Vultr', port: 443 },
-        { domain: 'ProxyIP.Multacom.CMLiussss.net', region: 'Multacom', regionCode: 'Multacom', port: 443 }
+        { domain: 'ProxyIP.Multacom.CMLiussss.net', region: 'Multacom', regionCode: 'Multacom', port: 443 },
+        { domain: 'proxyip.asia.915988.xyz', region: 'Asia', regionCode: 'Asia', port: 443 },
+        { domain: 'proxyip.america.915988.xyz', region: 'America', regionCode: 'America', port: 443 }
     ];
 
     const directDomains = [
